@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/setting_bright_seekbar_background" />
+    <item android:id="@android:id/progress">
+        <scale android:drawable="@android:color/holo_red_light" android:scaleWidth="100%" />
+
+<!--        @drawable/setting_bright_seekbar_progress-->
+    </item>
+</layer-list>
